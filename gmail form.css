@@ -14,27 +14,34 @@ body{
     justify-content: center;
     align-items: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
-    
+    height: 50vh;
+}
+.main{
+    display: flex;
+    justify-content:baseline;
+}
+#title{
+    font-weight: bold;
 }
 
 img{
     height: 50px;
 }
 .left-section{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items:baseline;
+    width: 80vh;
+    height: 45vh;
+
 }
 .right-section{
     display:flex;
     flex-direction:column;
     justify-content:flex-end;
     align-items: end;
-    height:50%;
+    height:45vh;
 }
 input[type=text]{
-    width:100%;   
+    width:100%;
+    height: 20%;   
 }
 .right-section span{display: flex;
     flex-direction:row;
@@ -52,14 +59,17 @@ input[type=text]{
     
 }
 .last{display: flex;
-    justify-content: last baseline;
-    text-decoration:none;
+    justify-items:last baseline ;
     color: black;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
 
 }
 .outside{
     width: 80%;
     margin-top: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
