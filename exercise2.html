@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Exercise2</title>
+    <style>
+        
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+.main{
+    width: 80%;
+    height: 90%;
+    border: 2px solid black;
+}
+
+.top{
+    padding: 23px;
+    height: 32%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left{
+    width: 50%;
+    height: 100%;
+    border: 2px solid blueviolet;
+}
+ 
+ .top-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+ }
+
+ .item1{
+    width: 90%;
+    height: 25%;
+    border: 2px solid yellowgreen;
+}
+ .item2{
+    width: 90%;
+    height: 25%;
+    border: 2px solid yellowgreen;
+}
+ .item3{
+    width: 90%;
+    height: 25%;
+    border: 2px solid yellowgreen;
+}
+
+.mid{
+        padding: 23px;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+.mid-left{
+    width: 50%;
+    height: 75%;
+    border: 2px solid yellowgreen;
+}
+
+.mid-right{
+    width: 45%;
+    height: 75%;
+    border: 2px solid yellowgreen;
+}
+
+.bottom{
+    padding: 23px;
+    height: 32%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-left{
+    width: 50%;
+    height: 25%;
+    border: 2px solid yellowgreen;
+}
+
+.bottom-right{
+    width: 45%;
+    height: 100%;
+    border: 2px solid blueviolet;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="top">
+                <div class="top-left">1</div>
+                <div class="top-right">
+                    <div class="item1">1</div>
+                    <div class="item2">2</div>
+                    <div class="item3">3</div>
+                </div>
+            </div>
+            <div class="mid">
+                <div class="mid-left">2</div>
+                <div class="mid-right">4</div>
+            </div>
+            <div class="bottom">
+                <div class="bottom-left">3</div>
+                <div class="bottom-right">5</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
