@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+
+    <style>
+        .div1{
+            display: block;
+            border: 2px solid black;
+            height: 200px;
+            width: 200px;
+            box-shadow: 2px 0px 20px 4px red;
+        }
+
+    .div2{
+        display:inline-block;
+        border: 2px solid black;
+        height: 200px;
+        width: 200px;
+        box-shadow: insert 5px 3px 3px 4px red;
+    }
+    .div3{
+        font-size: 50px;
+        text-shadow: 1px -2px 0px red,-1px 2px 0px blue;
+    }
+    .div4{
+        display: inline-block;
+        border: 2px solid black;
+        height: 500px;
+        width: 400px;
+    }
+    .div4 img{ 
+       height: 450px;
+       width: 400px;
+        overflow: visible;
+       
+        filter: drop-shadow(1px 8px 8px red) drop-shadow(2px 4px 4px) drop-shadow(4px 5px 6px);
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        content1
+    </div> <br><br><br>
+    <div class="div2">
+        content2
+    </div><br><br><br><br><br><br>
+    <div class="div3">
+        content3
+    </div><br><br><br><br><br><br>
+    <div class="div4">
+        <img src="a.png" alt="">
+        
+
+    </div>
+</body>
+</html>
