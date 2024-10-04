@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+header{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+        list-style: none;
+       
+        text-decoration: none;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+header div a{
+    color: black;
+}
+
+header div button{background-color: rgb(59, 62, 243);
+    font-size:medium;
+    border-radius: 10px;
+    font-weight:400;
+    border: none;
+    height: 30px;
+    width: auto;
+    color: white;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    height:250px;
+}
+.main button{
+    border: none;
+    font-weight:400;
+    font-size: medium;
+    height: 40px;
+    border-radius: 5px;
+}
+.ffirst{
+    height: 40px;
+    width: 200%;
+    margin-top: 170px;
+    background-color: bisque;
+    border-bottom: .5px solid black;
+    
+}
+.fsecond{
+    height: 40px;
+    width: 200%;
+    background-color: bisque;  
+}
