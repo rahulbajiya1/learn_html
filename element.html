@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: inline-block;
+            height: 200px;
+            width: 200px;
+            border: 3px solid black;
+        }
+        .c1{
+            border: 3px dotted red;
+        }
+        .c2{ 
+            border-bottom: 2px solid red;
+            writing-mode: vertical-rl;
+        }
+        .c3{
+            border: 3px double green;
+        }
+        .c4{
+            border: 3px inset greenyellow;
+        }
+        .c5{
+            border: 3px solid black;
+            border-top-left-radius: 5px ;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 20px ;
+        }
+        .c6{
+            border-image-source:url(https://i.sstatic.net/sjbeu.png);
+            border-image-slice: 100 100 100 100;
+            border-image-width: 20px 20px 20px 20px;
+            border-image-outset: 0px 0px 0px 0px;
+            border-image-repeat: stretch stretch;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="c1">
+        content1
+    </div>
+    <div class="c2">
+        content 2
+    </div>
+    <div class="c3">
+        content3
+    </div>
+    <div class="c4">
+        content4
+    </div>
+    <div class="c5">
+        content5
+    </div>
+    <div class="c6">
+    </div>
+</body>
+</html>
